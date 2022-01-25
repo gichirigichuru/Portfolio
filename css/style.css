@@ -1,0 +1,394 @@
+#rectangle {
+    background-color: #7e3c1d;
+    height: 100vh;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-left: 80px;
+  }
+  
+  #projects {
+    background-color: #294cac;
+    height: fit-content;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+  }
+  #profile,
+  #skills,
+  #contact {
+    background-color: #7e3c1d;
+
+    height: 100vh;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-left: 80px;
+  }
+  #toogleButton {
+    background-color: #f5911e;
+  }
+  #navList {
+    font-family: "Lato", sans-serif;
+    font-size: x-large;
+    color: #ffffff;
+  }
+  .card {
+    background-color: black;
+  }
+  #nameNav {
+    color: #979797;
+  }
+  #nameNav:hover {
+    color: #f5911e;
+    border-bottom: solid;
+    border-color: #f5911e;
+  }
+  a:link,
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  #linkHover {
+    color: #979797;
+  }
+  #linkHover:hover {
+    color: inherit;
+  }
+  #name {
+    color: #ffffff;
+    font-size: 100px;
+    border-bottom: 2px solid #f5911e;
+    font-family: "Lato", sans-serif;
+    text-align: right;
+    font-weight: bold;
+  }
+  #nameIcons {
+    font-size: 30px;
+    color: #979797;
+  }
+  #nameIcons:hover {
+    font-size: 35px;
+    cursor: pointer;
+    color: #f5911e;
+  }
+  
+  .try {
+    background-image: url("../images/main.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 28%;
+  }
+  #textAlt {
+    color: #979797;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+  #intoText {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #e2e2e2;
+  }
+  #profileText {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    color: #dcdada;
+  }
+  #profileButton {
+    background-color: #f5911e;
+    color: #ffffff;
+    animation: heartbeat 3s infinite;
+  }
+  #profileButton1 {
+    background-color: #f5911e;
+    color: #ffffff;
+  }
+  #contactButton {
+    border: 2px solid #f5911e;
+    color: #ffffff;
+  }
+  #contactButton:hover {
+    background-color: #f5911e;
+    size: 125px;
+  }
+  .profile {
+    color: #f5911e;
+    font-family: "Lato", sans-serif;
+    font-size: x-large;
+  }
+  
+  #profileImg {
+    width: 30px;
+  }
+  #svg {
+    display: flex;
+    justify-content: center;
+  }
+  #card {
+    position: relative;
+  }
+  h5 {
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+  }
+  
+  #mainText {
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  #footer {
+    background-color: #175822;
+    color: #979797;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(0.9);
+    }
+    20% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(0.9);
+    }
+    60% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  h4 {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #card-text,
+  ul {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: #525252;
+  }
+  #linkHover2 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 15px;
+  }
+  #icons2 {
+    background-color: #27478d;
+    color: #f5911e;
+    font-size: xx-large;
+  }
+  #icons2Text {
+    font-size: medium;
+  }
+  #intoText2 {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #e2e2e2;
+    width: 35%;
+  }
+  @media all and (max-width: 480px) {
+    #rectangle {
+      background-color: #13104a;
+      height: 100vh;
+      padding: 15px;
+    }
+    #shortIntro {
+      padding: 10px 24px;
+    }
+    #projects {
+      background-color: #13104a;
+      height: fit-content;
+      padding: 15px;
+    }
+    #profile,
+    #skills,
+    #contact {
+      background-color: #8f7d2c;
+      height: fit-content;
+      padding: 24px;
+    }
+    #toogleButton {
+      background-color: #f5911e;
+    }
+    #navList {
+      font-family: "Lato", sans-serif;
+      font-size: x-large;
+      color: #ffffff;
+    }
+    .card {
+      background-color: black;
+    }
+    #nameNav {
+      color: #979797;
+    }
+    #nameNav:hover {
+      color: #f5911e;
+      border-bottom: solid;
+      border-color: #f5911e;
+    }
+    a:link,
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    #linkHover {
+      color: #979797;
+    }
+    #linkHover:hover {
+      color: inherit;
+    }
+    #name {
+      color: #ffffff;
+      font-size: 70px;
+      border-bottom: 2px solid #f5911e;
+      font-family: "Lato", sans-serif;
+      text-align: right;
+      font-weight: bold;
+    }
+    #nameIcons {
+      font-size: 30px;
+      color: #979797;
+    }
+    #nameIcons:hover {
+      font-size: 35px;
+      cursor: pointer;
+      color: #f5911e;
+    }
+  
+    .try {
+      background-image: url("../images/main.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: right bottom;
+    }
+    #small {
+      width: auto;
+    }
+    #textAlt {
+      color: #979797;
+      font-size: 18px;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+    }
+    #intoText {
+      font-size: 18px;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      color: #e2e2e2;
+    }
+    #profileText {
+      font-size: 18px;
+      font-family: "Lato", sans-serif;
+      color: #dcdada;
+    }
+    #profileButton {
+      background-color: #f5911e;
+      color: #ffffff;
+      animation: heartbeat 3s infinite;
+    }
+    #profileButton1 {
+      background-color: #f5911e;
+      color: #ffffff;
+    }
+    #contactButton {
+      border: 2px solid #f5911e;
+      color: #ffffff;
+    }
+    #contactButton:hover {
+      background-color: #f5911e;
+      size: 125px;
+    }
+    .profile {
+      color: #f5911e;
+      font-family: "Lato", sans-serif;
+      font-size: x-large;
+    }
+  
+    #profileImg {
+      width: 30px;
+    }
+    #svg {
+      display: flex;
+      justify-content: center;
+    }
+    #card {
+      position: relative;
+    }
+    h5 {
+      position: absolute;
+      bottom: 0;
+      align-self: center;
+    }
+  
+    #mainText {
+      font-size: 22px;
+      color: white;
+      font-weight: bolder;
+    }
+  
+    @keyframes heartbeat {
+      0% {
+        transform: scale(0.9);
+      }
+      20% {
+        transform: scale(1);
+      }
+      40% {
+        transform: scale(0.9);
+      }
+      60% {
+        transform: scale(1);
+      }
+      80% {
+        transform: scale(0.9);
+      }
+      100% {
+        transform: scale(0.9);
+      }
+    }
+    h4 {
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+    #card-text,
+    ul {
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      color: #525252;
+    }
+    #linkHover2 {
+      font-family: "Lato", sans-serif;
+      color: white;
+      font-size: 15px;
+    }
+    #icons2 {
+      background-color: #13104a;
+      color: #f5911e;
+      font-size: xx-large;
+    }
+    #icons2Text {
+      font-size: medium;
+    }
+    #intoText2 {
+      font-size: 18px;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      color: #e2e2e2;
+      width: 100%;
+    }
+  }
+  
